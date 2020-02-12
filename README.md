@@ -1,6 +1,6 @@
 # learn_flutter_app
 
-A new Flutter project.
+这是一个学习App
 
 ## Getting Started
 
