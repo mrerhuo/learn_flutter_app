@@ -108,7 +108,7 @@ class ChapterList extends StatelessWidget {
             }),
         ListTile(
             leading: Icon(Icons.list),
-            title: Text('第九课 Button实例'),
+            title: Text('第九课 常用Widget实例'),
             trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {
               Navigator.of(context).push(
