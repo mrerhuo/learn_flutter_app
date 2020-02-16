@@ -12,6 +12,7 @@ import 'chapter9/Chapter9.dart';
 import 'chapter10/Chapter10.dart';
 import 'chapter11/Chapter11.dart';
 import 'chapter12/Chapter12.dart';
+import 'chapter13/Chapter13.dart';
 
 class Index extends StatelessWidget {
   const Index({Key key}) : super(key: key);
@@ -147,10 +148,12 @@ class ChapterList extends StatelessWidget {
             }),
         ListTile(
             leading: Icon(Icons.list),
-            title: Text('第十三课'),
+            title: Text('第十三课 Stream'),
             trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {
-              debugPrint('第十三课');
+               Navigator.of(context).push(
+                MaterialPageRoute(builder: (context)=>Chapter13())
+              );
             }),
         ListTile(
             leading: Icon(Icons.list),
