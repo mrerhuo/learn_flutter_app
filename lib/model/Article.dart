@@ -1,14 +1,16 @@
 class Article{
-  const Article({
+  Article({
     this.title,
     this.author,
     this.imageUrl,
-    this.description
+    this.description,
+    this.selected=false,
   });
   final String title;
   final String author;
   final String imageUrl;
   final String description;
+  bool selected;
 }
 final List<Article> articles=[
   Article(

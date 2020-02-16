@@ -11,7 +11,9 @@ class HelloList extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Material(
-                  borderRadius: BorderRadius.circular(20.0),
+                  elevation: 10,
+                  clipBehavior: Clip.antiAlias,//圆角需加这个
+                  borderRadius: BorderRadius.circular(20.0),//圆角角度
                   child: AspectRatio(
                     aspectRatio: 16 / 9,
                     child: Image.network(
