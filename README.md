@@ -17,4 +17,4 @@ samples, guidance on mobile development, and a full API reference.
 
 ##  intl_translation 命令
 flutter pub run intl_translation:extract_to_arb --output-dir=lib/i18n/ lib/chapter18/IntlDemo.dart
-flutter pub pub run intl_translation:generate_from_arb --generated-file-prefix=lang_demo_ --output-dir=lib/l18n --no-use-deferred-loading lib/IntlDemo.dart lib/l18n/intl_*.arb
+flutter pub pub run intl_translation:generate_from_arb --generated-file-prefix=lang_demo_ --output-dir=lib/l18n --no-use-deferred-loading lib/IntlDemo.dart lib/i18n/intl_*.arb
