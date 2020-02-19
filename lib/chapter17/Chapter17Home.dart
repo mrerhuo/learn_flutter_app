@@ -12,7 +12,7 @@ class _Chapter17HomeState extends State<Chapter17Home> {
     return Scaffold(
         resizeToAvoidBottomInset: false, //键盘
         appBar: AppBar(
-          title: Text('第十六节 动画实例'),
+          title: Text('第十七节 动画实例'),
           centerTitle: true,
         ),
         body: AnimationDemo());
