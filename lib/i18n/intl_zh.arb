@@ -1,8 +1,8 @@
 {
-  "@@last_modified": "2020-02-19T22:11:58.646903",
+  "@@last_modified": "2020-02-20T14:46:33.820140",
   "title": "你好",
   "@title": {
-    "description": "demo localizations",
+    "description": "问候某人",
     "type": "text",
     "placeholders": {}
   },

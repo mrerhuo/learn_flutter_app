@@ -25,7 +25,7 @@ class Index extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('坚持学习App'),
+        title: Text('国际化语言'),
         centerTitle: true, //title居中
         elevation: 0, //是否显示Bar阴影
       ),

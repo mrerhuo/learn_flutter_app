@@ -16,7 +16,9 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 ##  intl_translation 命令
-flutter pub run intl_translation:extract_to_arb --output-dir=lib/i18n/ lib/chapter18/IntlDemo.dart
-flutter pub pub run intl_translation:generate_from_arb --generated-file-prefix=lang_demo_ --output-dir=lib/l18n --no-use-deferred-loading lib/IntlDemo.dart lib/i18n/intl_zh.arb
 
-flutter pub pub run intl_translation:generate_from_arb --output-dir=lib/i18n --no-use-deferred-loading lib/InitDemo.dart lib/i18n/intl_*.arb
+intl_translation生成语言包。第十八课详细介绍
+生成基本模板->复制模板，修改名称比如 i18n里面的intl_*.arb
+flutter pub run intl_translation:extract_to_arb --output-dir=lib/i18n/ lib/chapter18/LangDemo2.dart
+
+flutter pub run intl_translation:generate_from_arb --generated-file-prefix=lang_ --output-dir=lib/i18n --no-use-deferred-loading lib/chapter18/LangDemo2.dart lib/i18n/intl_*.arb
