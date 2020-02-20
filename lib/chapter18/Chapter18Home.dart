@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'LocalLangs.dart';
+//import 'LocalLangs.dart';
+import 'SetLangDemo.dart';
 
 class Chapter18Home extends StatefulWidget {
   Chapter18Home({Key key}) : super(key: key);
@@ -55,7 +56,7 @@ class LangDemo extends StatelessWidget {
         children: <Widget>[
            Text('语言代码:${_locale.languageCode}'),
            Text('语言地区:${_locale.toString()}'),
-           Text(CustomLocalLangs.of(context).title),
+           Text(SetLangDemo.of(context).title),
         ],
       ),
     );
